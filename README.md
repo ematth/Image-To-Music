@@ -1,5 +1,5 @@
 ## Image-To-Music
-Short and sweet python3 code converting pixels from an image to "musical data." Arguments accept image and "length" factor, (ratio of pixels analyzed from image, [1, 100] for best results.)
+Short and sweet python code converting pixels from an image to "musical data." Arguments accept image and "length" factor, (ratio of pixels analyzed from image, [1, 100] for best results.)
 
 # Example
 Take note of "quad.jpg" and "quad.jpg.txt" for an example of the end-product.
