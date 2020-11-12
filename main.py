@@ -1,7 +1,6 @@
 # type "pip install pillow" in terminal for PIL installation
 from PIL import Image
 import sys
-import os
 
 try:
     picture = Image.open(str(sys.argv[1]))
@@ -11,12 +10,11 @@ except all:
     print('no valid image given')
     quit(1)
 
-factor = 25
+factor = 50
 try:
     factor = int(sys.argv[2])
 except:
     pass
-
 
 # reference dicts
 note_dict = {
